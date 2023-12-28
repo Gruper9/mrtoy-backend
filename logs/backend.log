@@ -1,0 +1,120 @@
+24.12.2023, 22:22:45 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:23:11 - INFO - user loggedin: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":10000}
+24.12.2023, 22:23:45 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:24:04 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:24:25 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:24:28 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:24:38 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:03 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:07 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:08 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:41 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:43 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:50 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:25:52 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:26:03 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:26:03 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:26:21 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:26:28 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:26:32 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:26:54 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:27:02 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:27:03 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:27:45 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:28:00 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:28:08 - INFO - user loggedin: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":10000}
+24.12.2023, 22:34:03 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:34:11 - INFO - user loggedin: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":10000}
+24.12.2023, 22:34:28 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:34:30 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:34:48 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:34:48 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:35:07 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:35:16 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:35:20 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:35:23 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:35:28 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:36:45 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:36:47 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:36:56 - INFO - User score updated: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":3271}
+24.12.2023, 22:37:05 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:37:25 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:37:39 - INFO - Server listening on port http://127.0.0.1:3030/
+24.12.2023, 22:37:47 - INFO - user loggedin: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":10000}
+25.12.2023, 10:41:49 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 10:42:06 - INFO - user loggedin: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":10000}
+25.12.2023, 10:42:48 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:18:27 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:22:40 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:29:40 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:29:40 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:30:19 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:30:33 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 11:56:28 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 12:04:01 - INFO - loggedinUser car delete: | null
+25.12.2023, 12:04:01 - INFO - Cannot remove car, No user
+25.12.2023, 12:04:06 - INFO - loggedinUser car delete: | null
+25.12.2023, 12:04:06 - INFO - Cannot remove car, No user
+25.12.2023, 12:04:37 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 12:08:17 - INFO - user loggedin: | {"_id":"YtbOz","fullname":"Bobo McPopo","score":10000}
+25.12.2023, 12:20:00 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 12:26:05 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 13:01:44 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 23:46:14 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 23:47:12 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 23:59:18 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:10:54 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:13:24 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:53:37 - INFO - loggedinUser car delete: | null
+26.12.2023, 22:53:37 - INFO - Cannot remove toy, No user
+26.12.2023, 22:55:23 - INFO - user loggedin: | {"_id":"6iykr","fullname":"Kiki Ki","score":10000}
+28.12.2023, 14:29:19 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:29:36 - INFO - loggedinUser car delete: | {"_id":"6iykr","fullname":"Kiki Ki","score":10000}
+28.12.2023, 14:34:13 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:34:24 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:45:01 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:45:18 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:51:54 - INFO - user loggedin: | {"_id":"6iykr","fullname":"Kiki Ki","score":10000}
+28.12.2023, 14:52:37 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:52:38 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:52:41 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:52:52 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:53:29 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:53:36 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:53:38 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:53:42 - INFO - toy t107 removed
+28.12.2023, 14:53:58 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:54:00 - INFO - toy t106 removed
+28.12.2023, 14:58:42 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:58:43 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:58:58 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:59:04 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:59:33 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:59:35 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:59:48 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 14:59:59 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 15:00:52 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 15:01:13 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 15:01:52 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 15:02:27 - INFO - toy Vr01x removed
+28.12.2023, 15:04:09 - INFO - toy uzA7W removed
+28.12.2023, 15:04:14 - INFO - toy o35XX removed
+28.12.2023, 15:04:14 - INFO - toy E93nt removed
+28.12.2023, 15:04:15 - INFO - toy JWiiM removed
+28.12.2023, 15:05:53 - INFO - toy CiP8Y removed
+28.12.2023, 15:05:55 - INFO - toy N4TL9 removed
+28.12.2023, 15:06:05 - INFO - toy 1buhX removed
+28.12.2023, 15:06:06 - INFO - toy oExa2 removed
+28.12.2023, 15:07:24 - INFO - toy j2yhp removed
+28.12.2023, 15:13:56 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 15:14:27 - INFO - toy t102 removed
+28.12.2023, 15:14:27 - INFO - toy t103 removed
+28.12.2023, 15:14:27 - INFO - toy t104 removed
+28.12.2023, 15:14:28 - INFO - toy t105 removed
+28.12.2023, 15:14:31 - INFO - toy ZAnw7 removed
+28.12.2023, 15:14:32 - INFO - toy FrM7r removed
+28.12.2023, 15:14:32 - INFO - toy kFFJ4 removed
+28.12.2023, 15:14:33 - INFO - toy GUdCs removed
+28.12.2023, 15:14:34 - INFO - toy y7XlO removed
+28.12.2023, 15:14:34 - INFO - toy UuT5m removed
+28.12.2023, 15:14:35 - INFO - toy PyRAZ removed
