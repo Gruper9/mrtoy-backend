@@ -1,8 +1,8 @@
 
 import fs from 'fs'
-import { utilService } from './util.service.js'
-import { loggerService } from './logger.service.js'
-import { dbService } from './db.service.js'
+import { utilService } from '../../services/util.service.js'
+import { loggerService } from '../../services/logger.service.js'
+import { dbService } from '../../services/db.service.js'
 
 export const toyService = {
     query,
@@ -15,9 +15,11 @@ export const toyService = {
 const toys = utilService.readJsonFile('data/toy.json')
 
 
-async function query(filterBy = { txt: '' }) {
+async function query(filterBy = { txt: '', maxPrice: '' }) {
     try {
         const criteria = {
+            name: { $regex: filterBy.txt, $options: 'i' },
+            maxPrice: filterBy.maxPrice
         }
         const collection = await dbService.getCollection('toyDB')
         var toys = await collection.find(criteria).toArray()

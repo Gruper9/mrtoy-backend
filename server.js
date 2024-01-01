@@ -7,8 +7,8 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-import { logger } from './services/logger.service.js'
-logger.info('server.js loaded...')
+import { loggerService } from './services/logger.service.js'
+loggerService.info('server.js loaded...')
 
 const app = express()
 
@@ -53,5 +53,5 @@ app.get('/**', (req, res) => {
 const port = process.env.PORT || 3030
 
 app.listen(port, () => {
-    logger.info('Server is running on port: ' + port)
+    loggerService.info('Server is running on port: ' + port)
 })
