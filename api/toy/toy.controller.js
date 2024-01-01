@@ -5,7 +5,7 @@ export async function getToys(req, res) {
     try {
         const filterBy = {
             txt: req.query.txt || '',
-            maxPrice: req.query.maxPrice || '',
+            maxPrice: +req.query.maxPrice || 9999999,
         }
         loggerService.debug('Getting Toys', filterBy)
         const toys = await toyService.query(filterBy)

@@ -200,3 +200,51 @@
 1.1.2024, 16:16:39 - INFO - Server is running on port: 3030
 1.1.2024, 16:16:44 - INFO - Req was made | /
 1.1.2024, 16:16:44 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:23:49 - INFO - Req was made | /
+1.1.2024, 16:23:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:24:10 - INFO - Req was made | /
+1.1.2024, 16:24:10 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:25:12 - INFO - server.js loaded...
+1.1.2024, 16:25:12 - INFO - Server is running on port: 3030
+1.1.2024, 16:25:15 - INFO - Req was made | /
+1.1.2024, 16:25:15 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:28:12 - INFO - server.js loaded...
+1.1.2024, 16:28:12 - INFO - Server is running on port: 3030
+1.1.2024, 16:28:12 - INFO - Req was made | /
+1.1.2024, 16:28:12 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:28:16 - INFO - server.js loaded...
+1.1.2024, 16:28:16 - INFO - Server is running on port: 3030
+1.1.2024, 16:29:15 - INFO - server.js loaded...
+1.1.2024, 16:29:15 - INFO - Server is running on port: 3030
+1.1.2024, 16:29:15 - INFO - Req was made | /
+1.1.2024, 16:29:15 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:29:38 - INFO - server.js loaded...
+1.1.2024, 16:29:38 - INFO - Server is running on port: 3030
+1.1.2024, 16:29:41 - INFO - Req was made | /
+1.1.2024, 16:29:41 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:30:26 - INFO - server.js loaded...
+1.1.2024, 16:30:26 - INFO - Server is running on port: 3030
+1.1.2024, 16:30:35 - INFO - server.js loaded...
+1.1.2024, 16:30:35 - INFO - Server is running on port: 3030
+1.1.2024, 16:30:37 - INFO - Req was made | /
+1.1.2024, 16:30:37 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:30:44 - INFO - server.js loaded...
+1.1.2024, 16:30:44 - INFO - Server is running on port: 3030
+1.1.2024, 16:30:48 - INFO - Req was made | /
+1.1.2024, 16:30:48 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:31:14 - INFO - server.js loaded...
+1.1.2024, 16:31:14 - INFO - Server is running on port: 3030
+1.1.2024, 16:31:18 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+1.1.2024, 16:31:18 - INFO - Req was made | /
+1.1.2024, 16:31:29 - INFO - server.js loaded...
+1.1.2024, 16:31:29 - INFO - Server is running on port: 3030
+1.1.2024, 16:31:32 - INFO - Req was made | /
+1.1.2024, 16:31:32 - DEBUG - Getting Toys | {"txt":"","maxPrice":9999999}
+1.1.2024, 16:32:07 - INFO - Req was made | /
+1.1.2024, 16:32:07 - DEBUG - Getting Toys | {"txt":"","maxPrice":9999999}
+1.1.2024, 16:32:15 - INFO - Req was made | /
+1.1.2024, 16:32:15 - DEBUG - Getting Toys | {"txt":"","maxPrice":9999999}
+1.1.2024, 16:32:25 - INFO - Req was made | /
+1.1.2024, 16:32:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":9999999}
+1.1.2024, 16:34:13 - INFO - Req was made | /
+1.1.2024, 16:34:13 - DEBUG - Getting Toys | {"txt":"","maxPrice":9999999}

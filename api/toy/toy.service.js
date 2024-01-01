@@ -15,11 +15,11 @@ export const toyService = {
 const toys = utilService.readJsonFile('data/toy.json')
 
 
-async function query(filterBy = { txt: '', maxPrice: '' }) {
+async function query(filterBy = { txt: '', maxPrice: 99999 }) {
     try {
         const criteria = {
             name: { $regex: filterBy.txt, $options: 'i' },
-            maxPrice: filterBy.maxPrice
+            price: { $lt: filterBy.maxPrice }
         }
         const collection = await dbService.getCollection('toyDB')
         var toys = await collection.find(criteria).toArray()
