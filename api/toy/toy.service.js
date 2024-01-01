@@ -15,7 +15,6 @@ export const toyService = {
 const toys = utilService.readJsonFile('data/toy.json')
 
 
-
 async function query(filterBy = { txt: '' }) {
     try {
         const criteria = {
