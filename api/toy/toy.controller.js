@@ -29,10 +29,10 @@ export async function getToyById(req, res) {
 
 export async function addToy(req, res) {
     const { loggedinUser } = req
-
+    console.log(req.body);
     try {
         const toy = req.body
-        toy.owner = loggedinUser
+        // toy.owner = loggedinUser
         const addedToy = await toyService.add(toy)
         res.json(addedToy)
     } catch (err) {
@@ -45,7 +45,7 @@ export async function updateToy(req, res) {
     try {
         const toy = req.body
         const updatedToy = await toyService.update(toy)
-        res.json(updatedToy)
+        res.send(updatedToy)
     } catch (err) {
         loggerService.error('Failed to update toy', err)
         res.status(500).send({ err: 'Failed to update toy' })
