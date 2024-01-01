@@ -119,3 +119,74 @@
 28.12.2023, 15:14:34 - INFO - toy UuT5m removed
 28.12.2023, 15:14:35 - INFO - toy PyRAZ removed
 28.12.2023, 15:18:44 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 19:26:50 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 19:27:23 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 19:27:53 - INFO - Server listening on port http://127.0.0.1:3030/
+28.12.2023, 19:28:25 - INFO - toy yq3w6 removed
+28.12.2023, 19:28:57 - INFO - toy AtyZn removed
+28.12.2023, 19:28:57 - INFO - toy kpWki removed
+28.12.2023, 19:28:58 - INFO - toy CzWxJ removed
+28.12.2023, 19:28:58 - INFO - toy igE4N removed
+28.12.2023, 19:28:59 - INFO - toy laFkd removed
+28.12.2023, 19:28:59 - INFO - toy V6kcS removed
+28.12.2023, 19:29:00 - INFO - toy gygbs removed
+28.12.2023, 19:29:01 - INFO - toy 3jyfA removed
+28.12.2023, 19:29:01 - INFO - toy GzSUK removed
+28.12.2023, 19:29:01 - INFO - toy S9cas removed
+28.12.2023, 19:29:02 - INFO - toy 5Kzw8 removed
+28.12.2023, 19:29:02 - INFO - toy InHb1 removed
+28.12.2023, 19:29:03 - INFO - toy wUsX4 removed
+28.12.2023, 19:29:05 - INFO - toy f3EXP removed
+28.12.2023, 19:29:05 - INFO - toy xi9CS removed
+28.12.2023, 19:29:06 - INFO - toy nv1uG removed
+28.12.2023, 19:29:56 - INFO - toy wMt0w removed
+28.12.2023, 19:30:35 - INFO - toy z0bAZ removed
+28.12.2023, 19:30:36 - INFO - toy xTOo5 removed
+28.12.2023, 19:30:37 - INFO - toy hBsFh removed
+28.12.2023, 19:30:37 - INFO - toy rTnIT removed
+28.12.2023, 19:30:38 - INFO - toy K4Fpt removed
+28.12.2023, 19:30:38 - INFO - toy WqqZu removed
+28.12.2023, 19:30:39 - INFO - toy qQgUo removed
+28.12.2023, 19:30:40 - INFO - toy 0Nz11 removed
+28.12.2023, 19:30:41 - INFO - toy tlqxT removed
+28.12.2023, 19:30:42 - INFO - toy a6lAz removed
+28.12.2023, 19:30:45 - INFO - toy Lvp3H removed
+28.12.2023, 19:30:46 - INFO - toy Pcdrt removed
+28.12.2023, 19:58:13 - INFO - toy JX991 removed
+28.12.2023, 20:20:44 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 13:29:25 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 14:08:10 - INFO - toy np3QF removed
+1.1.2024, 14:08:13 - INFO - toy u29AS removed
+1.1.2024, 14:08:13 - INFO - toy ZKJmW removed
+1.1.2024, 14:08:14 - INFO - toy gyM8s removed
+1.1.2024, 14:08:15 - INFO - toy izPx3 removed
+1.1.2024, 14:08:16 - INFO - toy 6ECKb removed
+1.1.2024, 14:08:17 - INFO - toy a0Osc removed
+1.1.2024, 14:08:20 - INFO - toy o9onp removed
+1.1.2024, 14:43:43 - INFO - toy MDBm7 removed
+1.1.2024, 14:43:43 - INFO - toy DTKiY removed
+1.1.2024, 15:18:18 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:18:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:18:46 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:18:53 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:19:27 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:33:24 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:34:27 - ERROR - Cannot get toys | ReferenceError: logger is not defined
+1.1.2024, 15:37:15 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:37:27 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:38:06 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:38:48 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:38:50 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:38:55 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:39:02 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:39:05 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:39:18 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:39:24 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:39:41 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:39:47 - ERROR - cannot find toys | ReferenceError: dbService is not defined
+1.1.2024, 15:40:13 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:42:51 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:43:21 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:46:11 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:46:14 - INFO - Server listening on port http://127.0.0.1:3030/
+1.1.2024, 15:46:18 - INFO - Server listening on port http://127.0.0.1:3030/

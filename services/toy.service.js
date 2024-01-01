@@ -2,53 +2,92 @@
 import fs from 'fs'
 import { utilService } from './util.service.js'
 import { loggerService } from './logger.service.js'
+import { dbService } from './db.service.js'
 
 export const toyService = {
     query,
     getById,
     remove,
-    save
+    update,
+    add
 }
 
 const toys = utilService.readJsonFile('data/toy.json')
 
-function query(filterBy = { txt: '' }) {
-    const regex = new RegExp(filterBy.txt, 'i')
-    var toysToReturn = toys.filter(toy => regex.test(toy.name))
-    if (filterBy.maxPrice) {
-        toysToReturn = toysToReturn.filter(toy => toy.price <= filterBy.maxPrice)
+
+
+async function query(filterBy = { txt: '' }) {
+    try {
+        const criteria = {
+        }
+        const collection = await dbService.getCollection('toyDB')
+        var toys = await collection.find(criteria).toArray()
+        return toys
+    } catch (err) {
+        loggerService.error('cannot find toys', err)
+        throw err
     }
-    return Promise.resolve(toysToReturn)
 }
 
-function getById(toyId) {
-    const toy = toys.find(toy => toy._id === toyId)
-    return Promise.resolve(toy)
-}
-
-function remove(toyId) {
-    const idx = toys.findIndex(toy => toy._id === toyId)
-    if (idx === -1) return Promise.reject('No Such Toy')
-    const toy = toys[idx]
-
-    toys.splice(idx, 1)
-    return _saveToysToFile()
-}
-
-function save(toy) {
-    if (toy._id) {
-        const toyToUpdate = toys.find(currToy => currToy._id === toy._id)
-
-        toyToUpdate.vendor = toy.name
-        toyToUpdate.price = toy.price
-        toy = toyToUpdate
-    } else {
-        toy._id = utilService.makeId()
-        toys.push(toy)
+async function getById(toyId) {
+    try {
+        const collection = await dbService.getCollection('toyDB')
+        const toy = await collection.findOne({ _id: new ObjectId(toyId) })
+        return toy
+    } catch (err) {
+        loggerService.error(`while finding toy ${toyId}`, err)
+        throw err
     }
-
-    return _saveToysToFile().then(() => toy)
 }
+async function remove(toyId) {
+    try {
+        const collection = await dbService.getCollection('toyDB')
+        await collection.deleteOne({ _id: new ObjectId(toyId) })
+    } catch (err) {
+        loggerService.error(`cannot remove toy ${toyId}`, err)
+        throw err
+    }
+}
+async function add(toy) {
+    try {
+        const collection = await dbService.getCollection('toyDB')
+        await collection.insertOne(toy)
+        return toy
+    } catch (err) {
+        loggerService.error('cannot insert toy', err)
+        throw err
+    }
+}
+
+async function update(toy) {
+    try {
+        const toyToSave = {
+            name: toy.name,
+            price: toy.price
+        }
+        const collection = await dbService.getCollection('toyDB')
+        await collection.updateOne({ _id: new ObjectId(toy._id) }, { $set: toyToSave })
+        return toy
+    } catch (err) {
+        loggerService.error(`cannot update toy ${toy._id}`, err)
+        throw err
+    }
+}
+
+// function save(toy) {
+//     if (toy._id) {
+//         const toyToUpdate = toys.find(currToy => currToy._id === toy._id)
+
+//         toyToUpdate.vendor = toy.name
+//         toyToUpdate.price = toy.price
+//         toy = toyToUpdate
+//     } else {
+//         toy._id = utilService.makeId()
+//         toys.push(toy)
+//     }
+
+//     return _saveToysToFile().then(() => toy)
+// }
 
 
 function _saveToysToFile() {

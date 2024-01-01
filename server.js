@@ -40,7 +40,7 @@ app.get('/api/toy', (req, res) => {
             res.send(toys)
         })
         .catch((err) => {
-            loggerService.error('Cannot get toys', err)
+            // loggerService.error('Cannot get toys', err)
             res.status(400).send('Cannot get toys')
         })
 })
@@ -62,7 +62,7 @@ app.get('/api/toy/:toyId', (req, res) => {
 app.post('/api/toy', (req, res) => {
     const toy = req.body
     console.log(toy)
-    toyService.save(toy)
+    toyService.add(toy)
         .then((savedToy) => {
             res.send(savedToy)
         })
@@ -81,7 +81,7 @@ app.put('/api/toy', (req, res) => {
         name: req.body.name,
         price: +req.body.price,
     }
-    toyService.save(toy)
+    toyService.update(toy)
         .then((savedToy) => {
             res.send(savedToy)
         })
